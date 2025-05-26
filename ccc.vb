@@ -27,7 +27,7 @@ Sub SendEmails()
     End If
     
     ' Define the template path
-    ' templatePath = ThisWorkbook.Path & "\maintenance.msg"
+    templatePath = ThisWorkbook.Path & "\your_template_file_name.msg"
     
     ' Get the last row with data in the "Customers" sheet
     lastRow = ws.Cells(ws.Rows.Count, "A").End(xlUp).Row
@@ -118,7 +118,7 @@ End Sub
 '    End If
 
 '    ' Define the template path
-'    ' templatePath = ThisWorkbook.Path & "\maintenance.msg"
+'     templatePath = ThisWorkbook.Path & "\your_template_file_name.msg"
 
 '    ' Get the last row with data in the "Customers" sheet
 '    lastRow = ws.Cells(ws.Rows.Count, "A").End(xlUp).Row
